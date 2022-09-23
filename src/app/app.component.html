@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title></title>
+</head>
+<body>
+
+  <div id="appBg">
+    <form name="forms">
+      <input type="textfield" name="ans" value="" autocomplete="off" readonly/>
+      <br>
+      <input type="button" value="AC" onclick="forms.ans.value =' '"> 
+      <input type="button" value="DEL" onclick="forms.ans.value = forms.ans.value.substr(0, forms.ans.value.length -1)">
+      <input type="button" value="%" onclick="forms.ans.value +='%'">
+      <input type="button" value="/" onclick="forms.ans.value +='/'">
+      <br>
+      <input type="button" value="7" onclick="forms.ans.value +='7'">
+      <input type="button" value="8" onclick="forms.ans.value +='8'">
+      <input type="button" value="9" onclick="forms.ans.value +='9'">
+      <input type="button" value="*" onclick="forms.ans.value +='*'">
+      <br>
+      <input type="button" value="4" onclick="forms.ans.value +='4'">
+      <input type="button" value="5" onclick="forms.ans.value +='5'">
+      <input type="button" value="6" onclick="forms.ans.value +='6'">
+      <input type="button" value="-" onclick="forms.ans.value +='-'">
+      <br>
+      <input type="button" value="1" onclick="forms.ans.value +='1'">
+      <input type="button" value="2" onclick="forms.ans.value +='2'">
+      <input type="button" value="3" onclick="forms.ans.value +='3'">
+      <input type="button" value="+" onclick="forms.ans.value +='+'">
+      <br>
+      <input type="button" value="0" onclick="forms.ans.value +='0'">
+      <input type="button" value="00" onclick="forms.ans.value +='00'">
+      <input type="button" value="." onclick="forms.ans.value +='.'">
+      <input type="button" value="=" onclick="forms.ans.value =eval(forms.ans.value)">
+      
+    </form>
+
+  </div>
+</body>
+
+</html>

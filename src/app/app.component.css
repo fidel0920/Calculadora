@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#appBg{
+    width: 360px;
+    padding: 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#appBg input[type="textfield"]{
+    width: 100%;
+    height: 100px;
+    margin: 0 3px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+    background: transparent;
+}
+
+#appBg input[type=button]{
+    height: 65px;
+    color: #fff;
+    width: calc(100% / 4 - 5px);
+    background: transparent;
+    border-radius: 12px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#appBg input[type=button]:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+/* #appBg{
+    height: 470px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#appBg form{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#appBg input[type=textfield]{
+    height: 15%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#appBg input[type=button], [type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#appBg .orange{
+    background-color: rgb(253, 149, 3);
+    color: white !important;
+}
+
+#appBg .gray{
+    background-color: rgb(51, 51, 51);
+    color: white !important;
+}
+
+#appBg .igual{
+    background-color: rgb(253, 149, 3);
+    color: white !important;
+} */
